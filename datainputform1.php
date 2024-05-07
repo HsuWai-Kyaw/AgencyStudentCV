@@ -18,7 +18,7 @@
                               <h1>ID</h1>
                          </b></td>
                     <td colspan="5"><input type="text" name="student_id" id=""></td>
-                    <td rowspan="2" class="student_photo" style="height: 70px;"><img src="empty.jpg" alt="" id="img" class="w-[4000px]">
+                    <td rowspan="2" class="student_photo" style="height: 70px; width:130px"><img src="empty.jpg" alt="" id="img" style="height: 150px; width:fit-content;">
                          <input class="file" type="file" name="photo" id="file">
                     </td>
                </tr>
