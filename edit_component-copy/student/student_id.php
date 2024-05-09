@@ -7,9 +7,9 @@ foreach ($student as $key => $value) {
                     <h1>ID</h1>
                </b></td>
           <td colspan="5"><input type="text" name="student_id" value="<?= $value['student_id'] ?? "" ?>" readonly></td>
-          <td rowspan="2" class="student_photo" style="height: 70px;">
+          <td rowspan="2" class="student_photo" style="height: 70px; width:130px">
                <input hidden name="oldphoto" value="<?php echo $value['photo'] ?>"></input>
-               <img src="img/<?= $value['photo'] ?>" alt="" id="img" width="150px" height="150px">
+               <img src="img/<?= $value['photo'] ?>" alt="" id="img" style="height: 150px; width:fit-content;">
                <input type="file" name="photo" accept="image/*" id="file" class="form-control file">
           </td>
      </tr>
